@@ -12,6 +12,7 @@
   },
   "author": "Pablo Sepulveda",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/pablospanish9/JavaScript/issues"
   },
