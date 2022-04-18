@@ -1,9 +1,8 @@
 import * as data from './data.js';
-// import { getAll as data1 } from './data.js';
-// import {getItem} from './data.js';
 
-console.log(data.workers)
+
+console.log(data.getItem("Mia"));
 
 // getItem("Robert")
 
-// getAll();
+console.log (data.getAll());

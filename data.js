@@ -4,21 +4,17 @@ export let workers = [
     { name:"Mia", age: "45", level: "5",price:"70" },
     { name:"Anna", age: "32" , level: "6", price:"80" },
     { name:"Lukas", age: "28 ", level: "7",price:"65" },
-   
-   
 ]
 
-//this is my getAll method, assign the entire array to a new variable, 
-//and export this new variable.
-export let myWorkers = workers
-console.log (myWorkers)
-// console.log (workers)
+//this is my getAll method, 
+export const getAll = () => {
+    return workers;
+   }
 
-export function getItem(n){
-let found = myWorkers.find((worker) => {
-    return worker.name === n;
-});
-console.log(found);
-console.log(n);
+// this is my getItem method
+export const getItem = (value) => {
+ return workers.find((item) => {
+    return item["name"] == value;
+    })
 }
 
